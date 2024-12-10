@@ -1,0 +1,24 @@
+.student-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 10px;
+  
+    .form-actions {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    .full-width {
+      width: 100%;
+    }
+
+  }
+
+  .title{
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+  

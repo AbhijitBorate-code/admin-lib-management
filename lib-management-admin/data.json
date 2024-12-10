@@ -1,0 +1,298 @@
+{
+  "students": [
+    {
+      "name": "Alice",
+      "id": "100001",
+      "branch": "CSE",
+      "year": "2019",
+      "books": [
+        {
+          "id": "2",
+          "name": "Programming Paradigms",
+          "author": "Alan Turing",
+          "genre": "Computer Science",
+          "assigned": true
+        }
+      ]
+    },
+    {
+      "name": "Bob",
+      "id": "100002",
+      "branch": "ECE",
+      "year": "2020",
+      "books": []
+    },
+    {
+      "name": "ravi",
+      "id": "100003",
+      "branch": "Mechanical",
+      "year": "2018",
+      "books": [
+        {
+          "id": 4,
+          "name": "Machine Learning for Engineers"
+        }
+      ]
+    },
+    {
+      "id": "100004",
+      "name": "David",
+      "branch": "Civil",
+      "year": "2021",
+      "books": [
+        {
+          "id": 5,
+          "name": "Structural Design"
+        }
+      ]
+    },
+    {
+      "id": "100005",
+      "name": "Eve",
+      "branch": "CSE",
+      "year": "2020",
+      "books": [
+        {
+          "id": 6,
+          "name": "Artificial Intelligence Basics"
+        }
+      ]
+    },
+    {
+      "name": "Alice Pole",
+      "id": "100006",
+      "branch": "CSE",
+      "year": "2019",
+      "books": []
+    },
+    {
+      "id": "100007",
+      "name": "Grace",
+      "branch": "Mechanical",
+      "year": "2017",
+      "books": []
+    },
+    {
+      "id": "100008",
+      "name": "Hank",
+      "branch": "Civil",
+      "year": "2019",
+      "books": []
+    },
+    {
+      "id": "100009",
+      "name": "Ivy",
+      "branch": "CSE",
+      "year": "2023",
+      "books": []
+    },
+    {
+      "id": "100010",
+      "name": "Jake",
+      "branch": "ECE",
+      "year": "2018",
+      "books": []
+    },
+    {
+      "id": "100011",
+      "name": "Karen",
+      "branch": "Mechanical",
+      "year": "2021",
+      "books": []
+    },
+    {
+      "id": "100012",
+      "name": "Leo",
+      "branch": "Civil",
+      "year": "2022",
+      "books": []
+    },
+    {
+      "id": "100013",
+      "name": "Mia",
+      "branch": "CSE",
+      "year": "2020",
+      "books": []
+    },
+    {
+      "id": "100014",
+      "name": "Nathan",
+      "branch": "ECE",
+      "year": "2023",
+      "books": []
+    },
+    {
+      "id": "100015",
+      "name": "Olivia",
+      "branch": "Mechanical",
+      "year": "2019",
+      "books": []
+    },
+    {
+      "id": "10000023",
+      "name": "Abhiji1.Borate",
+      "branch": "Mech",
+      "year": "2023",
+      "books": []
+    },
+    {
+      "id": "1000023",
+      "name": "Prakash",
+      "branch": "ETC",
+      "year": "2098",
+      "books": []
+    },
+    {
+      "0": {
+        "name": "Alice",
+        "id": "100001",
+        "branch": "CSE",
+        "year": "2019",
+        "books": []
+      },
+      "id": "df25"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "name": "The Quantum Realm",
+      "author": "Marie Curie",
+      "genre": "Physics",
+      "assigned": false
+    },
+    {
+      "id": "2",
+      "name": "Programming Paradigms",
+      "author": "Alan Turing",
+      "genre": "Computer Science",
+      "assigned": true
+    },
+    {
+      "id": "3",
+      "name": "Engineering Principles",
+      "author": "Isaac Newton",
+      "genre": "Engineering",
+      "assigned": false
+    },
+    {
+      "id": "4",
+      "name": "Machine Learning for Engineers",
+      "author": "Andrew Ng",
+      "genre": "AI",
+      "assigned": false
+    },
+    {
+      "id": "5",
+      "name": "Structural Design",
+      "author": "Brunelleschi",
+      "genre": "Civil",
+      "assigned": false
+    },
+    {
+      "id": "6",
+      "name": "Artificial Intelligence Basics",
+      "author": "John McCarthy",
+      "genre": "AI",
+      "assigned": false
+    },
+    {
+      "id": "7",
+      "name": "Advanced Python",
+      "author": "Guido van Rossum",
+      "genre": "Programming",
+      "assigned": false
+    },
+    {
+      "id": "8",
+      "name": "Electronics Simplified",
+      "author": "Nikola Tesla",
+      "genre": "Electronics",
+      "assigned": false
+    },
+    {
+      "id": "9",
+      "name": "Automobile Engineering",
+      "author": "Henry Ford",
+      "genre": "Automobile",
+      "assigned": false
+    },
+    {
+      "id": "10",
+      "name": "Fluid Dynamics",
+      "author": "Leonardo da Vinci",
+      "genre": "Mechanical",
+      "assigned": false
+    },
+    {
+      "id": "11",
+      "name": "Surveying Techniques",
+      "author": "Surveyor's Guild",
+      "genre": "Civil",
+      "assigned": false
+    },
+    {
+      "id": "12",
+      "name": "Web Development",
+      "author": "Tim Berners-Lee",
+      "genre": "Web",
+      "assigned": false
+    },
+    {
+      "id": "13",
+      "name": "Microprocessors and Interfaces",
+      "author": "Intel",
+      "genre": "Electronics",
+      "assigned": false
+    },
+    {
+      "id": "14",
+      "name": "Thermal Engineering",
+      "author": "Rudolf Diesel",
+      "genre": "Mechanical",
+      "assigned": false
+    },
+    {
+      "id": "15",
+      "name": "Concrete Technology",
+      "author": "Joseph Monier",
+      "genre": "Civil",
+      "assigned": false
+    },
+    {
+      "id": "16",
+      "name": "Data Structures",
+      "author": "Donald Knuth",
+      "genre": "Programming",
+      "assigned": false
+    },
+    {
+      "id": "17",
+      "name": "Digital Circuits",
+      "author": "Claude Shannon",
+      "genre": "Electronics",
+      "assigned": false
+    },
+    {
+      "id": "18",
+      "name": "Engineering Mathematics",
+      "author": "Euler",
+      "genre": "Mathematics",
+      "assigned": false
+    },
+    {
+      "id": "19",
+      "name": "Urban Planning",
+      "author": "Jane Jacobs",
+      "genre": "Civil",
+      "assigned": false
+    },
+    {
+      "id": "20",
+      "name": "Operating Systems",
+      "author": "Silberschatz",
+      "genre": "CS",
+      "assigned": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+
+<!-- Book dialouge -->
+<ng-content *ngIf="item[0]?.detailsBooks">
+  <p class="font-size text-center">Books Details : -</p>
+  <div *ngFor="let item of item[1]; let i = index">
+    <div class="text-center">
+      <span>{{ item.id }}. {{ item.name }}</span>
+    </div>
+  </div>
+</ng-content>
+
+
+<!-- edit student details -->
+
+
+
+
