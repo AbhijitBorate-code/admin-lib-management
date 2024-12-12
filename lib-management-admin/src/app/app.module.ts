@@ -21,6 +21,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { MatDailogAddStudentComponent } from './mat-dailog-add-student/mat-dailog-add-student.component';
 import { DialogAssgineBooksComponent } from './dialog-assgine-books/dialog-assgine-books.component';
+import {MatSelectModule} from '@angular/material/select';
+import { DialogAddBookComponent } from './dialog-add-book/dialog-add-book.component';
 
 const routes: Routes = [
   {
@@ -40,7 +42,7 @@ const routes: Routes = [
 ];
 
 @NgModule({
-  declarations: [AppComponent, DashbaordComponent, DialogModuleComponent, MatDialogEditComponent, MatDailogAddStudentComponent, DialogAssgineBooksComponent],
+  declarations: [AppComponent, DashbaordComponent, DialogModuleComponent, MatDialogEditComponent, MatDailogAddStudentComponent, DialogAssgineBooksComponent, DialogAddBookComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -57,7 +59,8 @@ const routes: Routes = [
     ReactiveFormsModule,
     MatFormFieldModule,
     MatInputModule,
-    MatCardModule
+    MatCardModule,
+    MatSelectModule
   ],
   providers: [],
   bootstrap: [AppComponent],

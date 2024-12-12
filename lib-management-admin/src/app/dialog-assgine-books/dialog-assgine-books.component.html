@@ -1,1 +1,11 @@
-<p>dialog-assgine-books works!</p>
+<mat-form-field class="custom-form-field" appearance="fill">
+    <div class="book">
+        <mat-label>Select Student</mat-label>
+        <mat-select (selectionChange)="onStudentSelect($event)">
+          <mat-option *ngFor="let student of studentName" [value]="student">
+            {{student.name}}
+          </mat-option>
+        </mat-select>
+    </div>
+  </mat-form-field>
+  

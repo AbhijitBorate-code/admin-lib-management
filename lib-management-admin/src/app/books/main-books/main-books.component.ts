@@ -11,6 +11,7 @@ import {
 } from '@angular/material/dialog';
 import { DialogModuleComponent } from '../../dialog-module/dialog-module.component';
 import { MatDialogEditComponent } from '../../mat-dialog-edit/mat-dialog-edit.component';
+import { DialogAssgineBooksComponent } from '../../dialog-assgine-books/dialog-assgine-books.component';
 @Component({
   selector: 'app-main-books',
   templateUrl: './main-books.component.html',
@@ -93,17 +94,29 @@ export class MainBooksComponent implements AfterViewInit, OnInit {
     });
   }
 
-  assignBook() {
 
-    this.openDialogForAssginBook();
+  // DialogAssgineBooksComponent
+  assginBook(e : any) {
+
+    this.openDialogForAssginBook('500ms', '500ms', e);
   }
 
 
-  openDialogForAssginBook()
-  {
-    
+  openDialogForAssginBook(
+    enterAnimationDuration: string,
+    exitAnimationDuration: string,
+    e: any
+  ): void {
+  
 
+    const dialogRef = this.dialog.open(DialogAssgineBooksComponent, {
+      width: '250px',
+      enterAnimationDuration,
+      exitAnimationDuration,
+      data: { e },
+    });
   }
+
 
 
   addBook() {}

@@ -5,15 +5,7 @@
       "id": "100001",
       "branch": "CSE",
       "year": "2019",
-      "books": [
-        {
-          "id": "2",
-          "name": "Programming Paradigms",
-          "author": "Alan Turing",
-          "genre": "Computer Science",
-          "assigned": true
-        }
-      ]
+      "books": []
     },
     {
       "name": "Bob",
@@ -27,36 +19,21 @@
       "id": "100003",
       "branch": "Mechanical",
       "year": "2018",
-      "books": [
-        {
-          "id": 4,
-          "name": "Machine Learning for Engineers"
-        }
-      ]
+      "books": []
     },
     {
       "id": "100004",
       "name": "David",
       "branch": "Civil",
       "year": "2021",
-      "books": [
-        {
-          "id": 5,
-          "name": "Structural Design"
-        }
-      ]
+      "books": []
     },
     {
       "id": "100005",
       "name": "Eve",
       "branch": "CSE",
       "year": "2020",
-      "books": [
-        {
-          "id": 6,
-          "name": "Artificial Intelligence Basics"
-        }
-      ]
+      "books": []
     },
     {
       "name": "Alice Pole",
@@ -159,7 +136,7 @@
       "name": "The Quantum Realm",
       "author": "Marie Curie",
       "genre": "Physics",
-      "assigned": false
+      "assigned": true
     },
     {
       "id": "2",
@@ -173,7 +150,7 @@
       "name": "Engineering Principles",
       "author": "Isaac Newton",
       "genre": "Engineering",
-      "assigned": false
+      "assigned": true
     },
     {
       "id": "4",
@@ -208,7 +185,7 @@
       "name": "Electronics Simplified",
       "author": "Nikola Tesla",
       "genre": "Electronics",
-      "assigned": false
+      "assigned": true
     },
     {
       "id": "9",
