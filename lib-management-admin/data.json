@@ -5,7 +5,15 @@
       "id": "100001",
       "branch": "CSE",
       "year": "2019",
-      "books": []
+      "books": [
+        {
+          "id": "4",
+          "name": "Machine Learning for Engineers",
+          "author": "Andrew Ng",
+          "genre": "AI",
+          "assigned": true
+        }
+      ]
     },
     {
       "name": "Bob",
@@ -157,7 +165,7 @@
       "name": "Machine Learning for Engineers",
       "author": "Andrew Ng",
       "genre": "AI",
-      "assigned": false
+      "assigned": true
     },
     {
       "id": "5",
