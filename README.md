@@ -1,5 +1,10 @@
-//   -------------------------------- : images of Module : --------------------------------
+//   -------------------------------- : images and steps of project : --------------------------------
 
+
+steps to Run project: - 
+  1) json-server --watch data.json
+  2) ng serve
+    
 
 
 1) Dashboard page : ------------------------
